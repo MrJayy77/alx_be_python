@@ -1,7 +1,7 @@
-P = 1000 #Principal amount
-R = 0.05 #Rate
-T = 3 #Time in years
+principal = 1000 #Principal amount
+rate = 0.05 #Rate
+time = 3 #Time in years
 
-Interest = P * R * T
+interest = principal* rate * time
 
-print("The simple interest is:",Interest)
+print("The simple interest is:",interest)
