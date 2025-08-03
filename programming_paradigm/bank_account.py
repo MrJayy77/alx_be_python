@@ -3,8 +3,9 @@ class BankAccount:
         self.__account_balance = float(account_balance)
 
     def deposit(self, amount):
-        self.__account_balance += float(amount)
-        return f"Deposited: ${float(amount):.2f}"
+        amount = float(amount)
+        self.__account_balance += amount
+        return f"Deposited: ${amount:.2f}"
 
     def withdraw(self, amount):
         amount = float(amount)
@@ -16,6 +17,7 @@ class BankAccount:
 
     def display_balance(self):
         return f"Current Balance: ${self.__account_balance:.2f}"
+
 
 
 
