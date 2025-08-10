@@ -34,7 +34,7 @@ class Library:
 
     def list_books(self):
         for book in self.books:
-            print(f"{book.title} by {book.author}")
+            print(book)
 
 
     
